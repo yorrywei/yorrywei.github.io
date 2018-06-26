@@ -4,15 +4,23 @@
       "title"    : "肿队长迪拜棕榈岛跳伞",
       "category" : "",
       "tags"     : "视频",
-      "url"      : "http://localhost:4000/blog/2018/04/10/yorry-skydive-dubai.html",
+      "url"      : "http://i.yorry.cn/blog/2018/04/10/yorry-skydive-dubai.html",
       "date"     : "[2018-04-10] "
+    } ,
+  
+    {
+      "title"    : "透明屏幕笔记本",
+      "category" : "",
+      "tags"     : "视频",
+      "url"      : "http://i.yorry.cn/blog/2011/05/17/yorry-transparent-laptop.html",
+      "date"     : "[2011-05-17] "
     } ,
   
     {
       "title"    : "献给自己20岁生日",
       "category" : "",
       "tags"     : "视频",
-      "url"      : "http://localhost:4000/blog/2010/04/16/yorry-20th-birthday.html",
+      "url"      : "http://i.yorry.cn/blog/2010/04/16/yorry-20th-birthday.html",
       "date"     : "[2010-04-16] "
     } 
   
