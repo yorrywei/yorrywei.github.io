@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">I'm 肿队长</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2018-06-27T02:26:28+08:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>肿队长</name>
+  <uri>http://localhost:4000/</uri>
+  <email>i@yorry.cn</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[肿队长迪拜棕榈岛跳伞]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2018/04/10/yorry-skydive-dubai.html" />
+  <id>http://localhost:4000/blog/2018/04/10/yorry-skydive-dubai</id>
+  <published>2018-04-10T00:00:00+08:00</published>
+  <updated>2018-04-10T00:00:00+08:00</updated>
+  <author>
+    <name>肿队长</name>
+    <uri>http://localhost:4000</uri>
+    <email>i@yorry.cn</email>
+  </author>
+  <content type="html">
+    &lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498&quot; src=&quot;https://v.qq.com/iframe/player.html?vid=r0626aq4lrb&amp;tiny=0&amp;auto=0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;你那么厉害，你咋不上天呢？&lt;/p&gt;
+
+&lt;p&gt;我上来啦~哈哈&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2018/04/10/yorry-skydive-dubai.html&quot;&gt;肿队长迪拜棕榈岛跳伞&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;http://localhost:4000&quot;&gt;I'm 肿队长&lt;/a&gt; on 2018年04月10日.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[献给自己20岁生日]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/blog/2010/04/16/yorry-20th-birthday.html" />
+  <id>http://localhost:4000/blog/2010/04/16/yorry-20th-birthday</id>
+  <updated>2010-04-27T00:00:00-00:00</updated>
+  <published>2010-04-16T00:00:00+08:00</published>
+  
+  <author>
+    <name>肿队长</name>
+    <uri>http://localhost:4000</uri>
+    <email>i@yorry.cn</email>
+  </author>
+  <content type="html">
+    &lt;iframe height=272 width=480 src='http://player.youku.com/embed/XMTY4NDIyNjIw' frameborder=0 'allowfullscreen'&gt;&lt;/iframe&gt;
+
+&lt;p&gt;导演/主演/5毛后期/(省略1万个职位): 肿队长&lt;/p&gt;
+
+&lt;p&gt;友情出演: 魅族M8&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/2010/04/16/yorry-20th-birthday.html&quot;&gt;献给自己20岁生日&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;http://localhost:4000&quot;&gt;I'm 肿队长&lt;/a&gt; on 2010年04月16日.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
