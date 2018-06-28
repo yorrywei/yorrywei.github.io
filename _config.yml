@@ -27,7 +27,7 @@ menu:
   - title: '归档'
     url: '/posts'
   - title: '作品'
-    url: '/prod/up/'
+    url: '/prod'
     submenu:
       - title: 'UP系统'
         url: '/prod/up/'
@@ -48,21 +48,8 @@ owner:
   # GitHub nick for use in follow button in author block.
   github: yorrywei
 
-# Twitter account associated with the site if different from owner/author twitter account.
-# Used in Twitter cards.
-#twitter:
-
-# Social networking links used in author block underneath posts. Update and remove as you like.
-social:
-  - title: "github"
-    url: "https://github.com/aron-bordin"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
-
 # Background image to be tiled on all pages
-background:
+background: wallpaper.gif
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -103,4 +90,4 @@ titlecase: true
 include: [".htaccess"]
 exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems: [jekyll-paginate]
-theme: neo-hpstr-jekyll-theme
+theme-bak: neo-hpstr-jekyll-theme

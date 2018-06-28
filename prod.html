@@ -1,0 +1,55 @@
+---
+layout: home
+title: 肿队长作品集
+subtitle: 我也不知道下一秒我会搞个啥出来...
+comments: false
+---
+
+{% capture site_cats %}{% for cat in site.categories %}{{ cat | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign cats_list = site_cats | split:',' | sort %}
+
+{% for item in (0..site.categories.size) %}{% unless forloop.last %}
+  {% capture this_word %}{{ cats_list[item] | strip_newlines }}{% endcapture %}
+  {% if this_word == 'Prod' %}
+    {% for post in site.categories[this_word] %}{% if post.title != null %}
+
+      <article class="hentry">
+        <header>
+          {% if post.image.feature %}
+          <div class="entry-image-index">
+            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
+            {% if post.image.credit %}<div class="image-credit">图片来源: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+
+          </div><!-- /.entry-image -->
+          {% endif %}
+          <div class="entry-meta">
+            <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%Y年%m月%d日" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+            {% if site.reading_time %}
+            <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+        预计阅读需要{% if readtime <= 1 %}1分钟{% else %}{{ readtime }}分钟{% endif %}
+      </span><!-- /.entry-reading-time -->
+            {% endif %}
+          </div><!-- /.entry-meta -->
+          {% if post.link %}
+          <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
+          {% else %}
+          <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+          {% endif %}
+          <div class="mb-date">
+            <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time></span>
+          </div>
+        </header>
+        <div class="entry-content">
+          {{ post.excerpt }}
+          {% if post.content contains "<!--more-->" %}
+          <div align="center">
+            <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn btn-info">阅读全文</a></div>
+          </div>
+          {% endif %}
+        </div><!-- /.entry-content -->
+      </article><!-- /.hentry -->
+    {% endif %}{% endfor %}
+  {% endif %}
+{% endunless %}{% endfor %}
