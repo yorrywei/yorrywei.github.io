@@ -32,14 +32,14 @@ $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gi
 $(document).ready(function() {
   $('.image-popup').magnificPopup({
     type: 'image',
-    tLoading: 'Loading image #%curr%...',
+    tLoading: '加载图片#%curr%...',
     gallery: {
       enabled: true,
       navigateByImgClick: true,
       preload: [0,1] // Will preload 0 - before current, and 1 after the current image
     },
     image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+      tError: '<a href="%url%">图片#%curr%</a>加载失败.',
     },
     removalDelay: 300, // Delay in milliseconds before popup is removed
     // Class that is added to body when popup is open.
@@ -78,20 +78,22 @@ $(document).ready(function(){
         "position": "bottom",
         "content": [
           "<a class='fa fa-search' href='/search'></a>",
-          "<a class='fa fa-envelope' href='#/'></a>",
-          "<a class='fa fa-twitter' href='#/'></a>",
-          "<a class='fa fa-facebook' href='#/'></a>"
+          "<a class='fa fa-envelope' href='mailto:i@yorry.cn'></a>",
+          "<a class='fa fa-weibo' href='https://weibo.com/yorry' target='_blank'></a>"
         ]
       }
     ]
   });
 });
 
-var sharing = function(){
-    $(document).ready(function(){
-      $("body").floatingSocialShare({
-        buttons: ["facebook","twitter","google-plus", "linkedin", "pinterest"],
-        text: "Share with "
-      });
-    });
-};//sharing
+// reset size
+$(function(){
+  var w = $('.entry-content').width()
+  $.each($('.entry-content iframe, .my-video'), function (i, v) {
+    var v_w = $(v).width()
+    var v_h = $(v).height()
+    if(v_w > w) {
+      $(v).width(w).height(v_h * w / v_w)
+    }
+  })
+})
