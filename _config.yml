@@ -31,8 +31,8 @@ menu:
     submenu:
       - title: 'UP系统'
         url: '/prod/up/'
-#      - title: '微信小程序'
-#        url: '/prod/miniprogram/'
+      - title: '微信小程序'
+        url: '/prod/miniprogram-KOsudoku/'
   - title: '关于'
     url: '/about'
 
