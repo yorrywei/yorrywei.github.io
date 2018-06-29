@@ -26,7 +26,7 @@ menu:
     url: '/tags'
   - title: '归档'
     url: '/posts'
-  - title: '作品'
+  - title: '作品集'
     url: '/prod'
     submenu:
       - title: 'UP系统'

@@ -1,95 +1,529 @@
----
-layout: page
-title: "首页"
-description: "I'm 肿队长首页"
-sid: home
-image:
-  background:
----
-<style>
-  .entry-content {
-    position: relative;
-  }
-  #yorry {
-    width: 190px;
-    height: 320px;
-    background-image: url(./images/yorry.png);
-  }
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>首页 &#8211; I'm 肿队长</title>
+  <meta name="description" content="I'm 肿队长首页">
 
-  #speak, #kuang1, #kuang2, #sentence {
-    height: 105px;
-  }
+  <!-- Open Graph -->
+  <meta property="og:locale" content="cn_ZH">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="首页">
+  <meta property="og:description" content="I'm 肿队长首页">
+  <meta property="og:url" content="http://i.yorry.cn/">
+  <meta property="og:site_name" content="I'm 肿队长">
+  <meta property="og:image" content="http://i.yorry.cn/images/images/logo.png">
 
-  #speak {
-    position: absolute;
-    margin-left: 110px;
-    top: 50px;
-    overflow: hidden;
-    display: none;
-  }
+  <link rel="canonical" href="http://i.yorry.cn/">
+  <link href="http://i.yorry.cn/feed.xml" type="application/atom+xml" rel="alternate" title="I'm 肿队长 Feed">
 
-  #kuang1, #kuang2, #sentence {
-    float: left;
-  }
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
-  #kuang1, #kuang2 {
-    width: 35px;
-  }
+  <meta http-equiv="cleartype" content="on">
+  <!--<meta http-equiv="Pragma" content="no-cache">-->
+  <!--<meta http-equiv="Cache-Control" content="no-cache">-->
+  <!--<meta http-equiv="Expires" content="0">-->
 
-  #kuang1 {
-    background-image: url(./images/kuang1.png);
-  }
+  <!-- Icons -->
+  <!-- 16x16 -->
+  <link rel="shortcut icon" href="http://i.yorry.cn/favicon.ico">
+  <!-- 32x32 -->
+  <link rel="shortcut icon" href="http://i.yorry.cn/favicon.png">
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="http://i.yorry.cn/images/apple-touch-icon-precomposed.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://i.yorry.cn/images/apple-touch-icon-72x72-precomposed.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://i.yorry.cn/images/apple-touch-icon-114x114-precomposed.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://i.yorry.cn/images/apple-touch-icon-144x144-precomposed.png">
+  <style>
+    article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
+    *,
+    *::after,
+    *::before {
+      box-sizing: border-box;
+    }
+    body {
+      --body-text: #f1d51d;
+      --body-text-alt: #525252;
+      --body-bg: #3d3d3d;
+      --link-text: #6d6d6d;
+      --link-text-hover: #fff;
+      --content-title-text: #000;
+      --content-subtitle-text: #f1d51d;
+      --highlight-text: #ffc712;
+      --content-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #f1d51d;
+      color: var(--body-text);
+      background: #3d3d3d;
+      background: var(--body-bg);
+      font-size: 14px;
+      overflow-x: hidden;
+    }
 
-  #sentence {
-    background-image: url(./images/kuang2.png);
-    font-size: 24px;
-    line-height: 90px;
-  }
+    a {
+      text-decoration: none;
+      color: #6d6d6d;
+      color: var(--link-text);
+      outline: none;
+    }
 
-  #kuang2 {
-    background-image: url(./images/kuang3.png);
-  }
-  @media only screen and (min-width: 48em) {
-    #mb-sentence {
+    a:hover,
+    a:focus {
+      outline: none;
+      color: #fff;
+      color: var(--link-text-hover);
+    }
+
+    .hidden {
+      position: absolute;
+      overflow: hidden;
+      width: 0;
+      height: 0;
+      pointer-events: none;
+    }
+
+    .message {
+      background: #333;
+      background: var(--body-text);
+      color: #ccd8e4;
+      color: var(--body-bg);
+      text-align: center;
+      padding: 1em;
       display: none;
     }
-    #speak {
+
+    /* Icons */
+    .icon {
       display: block;
+      width: 1.5em;
+      height: 1.5em;
+      margin: 0 auto;
+      fill: currentColor;
     }
-  }
 
-</style>
+    /* Page Loader */
+    .js .loading::before {
+      content: '';
+      position: fixed;
+      z-index: 10000;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #ccd8e4;
+      background: var(--body-bg);
+    }
 
-<div id="yorry"></div>
-<div id="speak">
-  <div id="kuang1"></div>
-  <div id="sentence">大家好，I'm 肿队长</div>
-  <div id="kuang2"></div>
-</div>
-<div id="mb-sentence"></div>
+    .js .loading::after {
+      content: '';
+      position: fixed;
+      z-index: 10000;
+      top: 50%;
+      left: 50%;
+      width: 80px;
+      height: 80px;
+      margin: -40px 0 0 -40px;
+      pointer-events: none;
+      background: #333;
+      background: var(--body-text);
+      transform-origin: 0% 50%;
+      animation: loaderAnim 1.5s linear infinite alternate forwards;
+    }
 
+    @keyframes loaderAnim {
+      0% {
+        transform: scale3d(0,1,1);
+        transform-origin: 0% 50%;
+      }
+      50% {
+        transform: scale3d(1,1,1);
+        transform-origin: 0% 50%;
+      }
+      51% {
+        transform: scale3d(1,1,1);
+        transform-origin: 100% 50%;
+      }
+      100% {
+        transform: scale3d(0,1,1);
+        transform-origin: 100% 50%;
+      }
+    }
+
+    /* Frame */
+    .frame {
+      top: 0;
+      left: 0;
+      position: fixed;
+      z-index: 100;
+      display: grid;
+      width: 100%;
+      height: 100vh;
+      z-index: 100;
+      pointer-events: none;
+      padding: 2em;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto auto 4em;
+      grid-template-areas: 	"... header"
+      "... header"
+      "... demos";
+    }
+
+    .no-js .frame {
+      position: relative;
+      display: block;
+      height: auto;
+    }
+
+    .frame a {
+      pointer-events: auto;
+    }
+
+    .frame__title {
+      font-family: var(--content-font);
+      margin: 0;
+      font-size: 2em;
+      justify-self: start;
+    }
+
+    /* Header */
+    .codrops-header {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      grid-area: header;
+      align-self: start;
+      justify-self: end;
+    }
+
+    .codrops-header__title {
+      font-size: 1em;
+      opacity: 0;
+      margin: 1em 0 0;
+      font-weight: normal;
+      -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+    }
+
+    /* Top Navigation Style */
+    .codrops-links {
+      position: relative;
+    }
+
+    .codrops-icon {
+      display: block;
+      margin: 0.25em 0;
+      padding: 0.25em 0;
+    }
+
+    /* Demo links */
+    .demos {
+      grid-area: demos;
+      align-self: end;
+      justify-self: end;
+      margin: 0 0 0 auto;
+    }
+
+    .demo {
+      display: inline-block;
+      margin: 0 0 0 1em;
+      padding: 0 0 0.25em;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+    }
+
+    .demo--current {
+      border-color: currentColor;
+    }
+
+    .pieces {
+      display: flex;
+      flex-wrap: wrap;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
+
+    @media screen and (max-width: 40em) {
+      .message {
+        display: block;
+      }
+      .frame {
+        display: block;
+        height: auto;
+        position: relative;
+        text-align: center;
+        z-index: 10000;
+      }
+      .codrops-header {
+        flex-direction: column;
+      }
+      .codrops-header__title {
+        padding: 1em 0;
+        opacity: 1;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+      }
+      .codrops-icon {
+        display: inline-block;
+        margin: 0.25em;
+        padding: 0.25em;
+      }
+      .demos {
+        padding: 1em 0 0;
+      }
+      .demo {
+        margin: 0 0.5em 0.5em;
+      }
+    }
+    .demo-grid {
+      --body-text: #585858;
+      --body-text-alt: #cf1d56;
+      --body-bg: #010101;
+      --link-text: #c7c5c5;
+      --link-text-hover: #fff;
+      --content-font: "Cormorant Garamond", sans-serif;
+    }
+
+    .content {
+      --pieces-height: 90vh;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    footer {
+      position: absolute;
+      z-index: 0;
+      bottom: 5px;
+      text-align: center;
+      width: 100%;
+      color: #999;
+    }
+
+    .page-nav {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      font-family: var(--content-font);
+    }
+
+    .page-nav__item {
+      font-size: 10vh;
+    }
+
+    .page-nav__item--close {
+      font-size: 1.85em;
+      margin: 1em 0 0 0;
+      color: var(--body-text-alt);
+      position: relative;
+    }
+
+    .page-nav__item--close:hover,
+    .page-nav__item--close:focus {
+      color: var(--body-text-alt);
+      text-decoration: line-through;
+    }
+
+    .content__title {
+      font-size: 10vw;
+      margin: 0;
+      font-weight: normal;
+      cursor: pointer;
+      font-family: var(--content-font);
+      color: var(--body-text-alt);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .page-nav--open ~ .content__title {
+      pointer-events: none;
+    }
+
+    .content .pieces {
+      height: var(--pieces-height);
+      width: calc(var(--pieces-height) * calc(888/1000));
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: calc(-1 * var(--pieces-height) * calc(888/1000) / 2);
+      margin-top: calc(-1 * var(--pieces-height) / 2);
+      pointer-events: none;
+    }
+
+    @media screen and (max-width: 40em) {
+      .content {
+        --pieces-height: 50vh;
+      }
+      .content__title {
+        font-size: 22vw;
+      }
+      .page-nav__item {
+        font-size: 6vh;
+      }
+    }
+  </style>
+  <script>document.documentElement.className = 'js';</script>
+</head>
+<body>
+<svg class="hidden">
+  <symbol id="icon-arrow" viewBox="0 0 24 24">
+    <title>arrow</title>
+    <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+  </symbol>
+  <symbol id="icon-drop" viewBox="0 0 24 24">
+    <title>drop</title>
+    <path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+  </symbol>
+</svg>
+<main>
+  <div class="content">
+    <nav class="page-nav">
+      <a class="page-nav__item" href="/blog">日志</a>
+      <a class="page-nav__item" href="/tags">标签</a>
+      <a class="page-nav__item" href="/posts">归档</a>
+      <a class="page-nav__item" href="/prod">作品集</a>
+      <a class="page-nav__item" href="/about">关于</a>
+      <a class="page-nav__item page-nav__item--close" href="#">返回</a>
+    </nav>
+    <div class="pieces" style="background-image: url(images/portrait.png)"></div>
+    <h2 class="content__title"></h2>
+  </div>
+</main>
+<footer role="contentinfo">
+  <span>© 2018 <a href="/about" target="_self">肿队长</a> | <a href="http://www.miibeian.gov.cn/" target="_blank">渝ICP备13007401号</a> | <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011902000173" target="_blank">渝公网安备50011902000173号</a></span>
+</footer>
+<script src="/assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+<script src="/assets/js/vendor/anime.min.js"></script>
+<script src="/assets/js/vendor/pieces.js"></script>
 <script>
-  var tipId;
-  var index;
-  var s = ["大家好，I'm 肿队长",
-    "欢迎访问我的破网站",
-    "网站正在改版中",
-    "啥时候能改版完得看心情",
-    "恩，就先这样吧。。。"];
-  ready();
+  {
+    imagesLoaded(document.body, { background: true }, () => document.body.classList.remove('loading'));
 
-  function ready() {
-    index = 1;
-    tipId = window.setInterval("speak()", 4000);
-    s.forEach(function (v) {
-      document.getElementById("mb-sentence").innerHTML += '<p>'+v+'</p>'
-    })
-  }
-  function speak() {
-    if (index >= s.length) {
-      index = 0;
-    }
-    document.getElementById("sentence").innerText = s[index];
-    index++;
+    const piecesEl = document.querySelector('.content .pieces');
+    const piecesObj = new Pieces(piecesEl, {
+      pieces: {rows: 14, columns: 12}
+    });
+    const menuEl = document.querySelector('.page-nav');
+    const optionsCtrl = document.querySelector('.content__title');
+    const closeOptionsCtrl = menuEl.querySelector('a.page-nav__item--close');
+
+    const showOptions = () => {
+      menuEl.classList.add('page-nav--open');
+
+      piecesObj.animate({
+        duration: 3000,
+        delay: (t,i) => {
+          const elBounds = piecesEl.getBoundingClientRect();
+          const x1 = elBounds.left + elBounds.width/2;
+          const y1 = elBounds.top + elBounds.height/2;
+          const tBounds = t.getBoundingClientRect();
+          const x2 = tBounds.left + tBounds.width/2;
+          const y2 = tBounds.top + tBounds.height/2;
+          const dist = Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+          const maxDist = Math.sqrt(Math.pow(elBounds.left-x1,2) + Math.pow(elBounds.top-y1,2));
+          const maxDelay = 300;
+
+          t.dataset.centerx = x2;
+          t.dataset.centery = y2;
+
+          return -1*maxDelay/maxDist*dist + maxDelay;
+        },
+        easing: [0.1,1,0,1],
+        translateX: (t,i) => {
+          return t.dataset.column < piecesObj.getTotalColumns()/2 ? anime.random(-400,0) : anime.random(0,400);
+        },
+        translateY: (t,i) => {
+          return t.dataset.row < piecesObj.getTotalRows()/2 ? anime.random(-400,0) : anime.random(0,400);
+        },
+        opacity: 0.2
+      });
+
+      anime.remove(optionsCtrl);
+      anime({
+        targets: optionsCtrl,
+        duration: 700,
+        easing: 'easeOutExpo',
+        scale: 1.2,
+        opacity: 0
+      });
+
+      anime.remove(menuEl);
+      anime({
+        targets: menuEl,
+        duration: 700,
+        delay: 150,
+        easing: 'easeOutExpo',
+        scale: [0,1],
+        opacity: 1
+      });
+    };
+
+    const hideOptions = (ev) => {
+      ev.preventDefault();
+      menuEl.classList.remove('page-nav--open');
+
+      piecesObj.animate({
+        duration: 600,
+        delay: (t,i) => {
+          const elBounds = piecesEl.getBoundingClientRect();
+          const x1 = elBounds.left + elBounds.width/2;
+          const y1 = elBounds.top + elBounds.height/2;
+          const x2 = t.dataset.centerx;
+          const y2 = t.dataset.centery;
+          const dist = Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+          const maxDist = Math.sqrt(Math.pow(elBounds.left-x1,2) + Math.pow(elBounds.top-y1,2));
+          const maxDelay = 800;
+
+          return maxDelay/maxDist*dist;
+        },
+        easing: [0.1,1,0,1],
+        translateX: 0,
+        translateY: 0,
+        opacity: 1
+      });
+
+      anime.remove(optionsCtrl);
+      anime({
+        targets: optionsCtrl,
+        duration: 700,
+        delay: 200,
+        easing: 'easeOutQuint',
+        scale: [1.1,1],
+        opacity: 1
+      });
+
+      anime.remove(menuEl);
+      anime({
+        targets: menuEl,
+        duration: 700,
+        easing: 'easeOutQuint',
+        scale: 0.8,
+        opacity: 0
+      });
+    };
+
+    optionsCtrl.addEventListener('click', showOptions);
+    closeOptionsCtrl.addEventListener('click', hideOptions);
   }
 </script>
+</body>
+</html>
