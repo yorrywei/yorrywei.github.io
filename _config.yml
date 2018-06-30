@@ -33,6 +33,8 @@ menu:
         url: '/prod/up/'
       - title: '微信小程序'
         url: '/prod/miniprogram-KOsudoku/'
+      - title: 'chrome插件'
+        url: '/prod/crx-assistant-zhong/'
   - title: '关于'
     url: '/about'
 

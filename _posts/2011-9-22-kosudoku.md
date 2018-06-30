@@ -8,7 +8,7 @@ categories: [Prod]
 sid: kosudoku
 ---
 
-![Smithsonian Image](http://yorry.cn/link/kosudoku/load_img2.png)
+[![Smithsonian Image](http://yorry.cn/link/kosudoku/load_img2.png)](http://yorry.cn/link/kosudoku/load_img2.png)
 {: .image-contain}
 
 ## 背景
