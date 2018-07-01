@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "首届\"解放号\"杯程序员大赛获奖"
+title: "首届“解放号”杯程序员大赛获奖"
 description: ""
 tags: []
 categories: [Blog]
