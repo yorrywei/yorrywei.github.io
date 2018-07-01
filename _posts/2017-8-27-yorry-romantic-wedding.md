@@ -18,6 +18,8 @@ sid: 20170827a
 [![Smithsonian Image](http://yorry.cn/link/blog/IMG_4706.JPG)](http://yorry.cn/link/blog/IMG_4706.JPG)
 {: .image-horizontal}
 
+<!--more-->
+
 [![Smithsonian Image](http://yorry.cn/link/blog/IMG_4707.JPG)](http://yorry.cn/link/blog/IMG_4707.JPG)
 {: .image-horizontal}
 
