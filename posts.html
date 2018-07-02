@@ -15,7 +15,11 @@ comments: false
       <ul>
     {% endif %}
 
+        {% if post.link %}
+        <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}">{{ post.date | date: " [%m-%d] " }}<i class="fa fa-bookmark"></i></a><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></li>
+        {% else %}
         <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.date | date: " [%m-%d] " }}{{ post.title }}</a></li>
+        {% endif %}
 
     {% if forloop.last %}
       </ul>

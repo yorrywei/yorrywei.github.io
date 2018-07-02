@@ -22,7 +22,11 @@ comments: false
 	<h2 class="tag-heading">{{ this_word }}</h2>
 		<ul>
     {% for post in site.tags[this_word] %}{% if post.title != null %}
+      {% if post.link %}
+      <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}">{{ post.date | date: " [%Y-%m-%d] " }}<i class="fa fa-bookmark"></i></a><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></li>
+      {% else %}
       <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.date | date: " [%Y-%m-%d] " }}{{ post.title }}</a></li>
+      {% endif %}
     {% endif %}{% endfor %}
 		</ul>
 	</article><!-- /.hentry -->

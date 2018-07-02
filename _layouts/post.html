@@ -26,6 +26,11 @@
         <span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time></span>
       </div>
       {{ content }}
+      {% if page.link %}
+      <div align="center">
+        <div markdown="0"><a href="{{ page.link }}" class="btn btn-info">阅读全文</a></div>
+      </div>
+      {% endif %}
       <footer class="entry-meta">
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags#{{ tag }}" title="标签为: {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
         {% if page.modified %}<span>更新于 <span class="entry-date date updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%Y年%m月%d日" }}</time></span></span>
