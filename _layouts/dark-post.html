@@ -36,7 +36,7 @@
         </div>
       </footer>
       {% if page.share != false %}{% include social-share.html %}{% endif %}
-      {% if page.comments != false %}<div id="lv-container" data-id="city" data-uid="MTAyMC8zODE4MC8xNDcwOA=="></div> {% endif %}
+      {% if page.comments != false %}<div id="SOHUCS" sid="{{ page.sid }}"></div> {% endif %}
     </div><!-- /.entry-content -->
     {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
   </article>
