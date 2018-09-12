@@ -22,20 +22,6 @@ UP·会议室预订功能极速上线！
 
 <!--more-->
 
-[![Smithsonian Image](http://yorry.cn/link/up/IMG_5010.PNG)](http://yorry.cn/link/up/IMG_5010.PNG)
-{: .image-contain}
-
-[![Smithsonian Image](http://yorry.cn/link/up/IMG_5004.PNG)](http://yorry.cn/link/up/IMG_5004.PNG)
-{: .image-contain}
-
-[![Smithsonian Image](http://yorry.cn/link/up/IMG_5007.PNG)](http://yorry.cn/link/up/IMG_5007.PNG)
-{: .image-contain}
-
-[![Smithsonian Image](http://yorry.cn/link/up/IMG_5005.PNG)](http://yorry.cn/link/up/IMG_5005.PNG)
-{: .image-contain}
-
-[![Smithsonian Image](http://yorry.cn/link/up/IMG_5006.PNG)](http://yorry.cn/link/up/IMG_5006.PNG)
-{: .image-contain}
-
-[![Smithsonian Image](http://yorry.cn/link/up/IMG_5011.jpg)](http://yorry.cn/link/up/IMG_5011.jpg)
-{: .image-contain}
+{::nomarkdown}
+<embed width="800" height="600" src="//up.yorry.cn/link/up/UP_Reservation_v1.0.pdf"></embed>
+{:/nomarkdown}
