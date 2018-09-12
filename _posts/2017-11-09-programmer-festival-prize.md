@@ -10,7 +10,7 @@ sid: 20171109a
 ![Smithsonian Image](http://www.codingthefuture.com/images/logo2.png)
 {: #codingthefuture}
 
-[![Smithsonian Image](http://yorry.cn/link/blog/jfh_prize.png)](http://yorry.cn/link/blog/jfh_prize.png)
+[![Smithsonian Image](//up.yorry.cn/link/blog/jfh_prize.png)](//up.yorry.cn/link/blog/jfh_prize.png)
 {: .image-contain}
 
 老婆跟我都获得了"程序员之星"二等奖。

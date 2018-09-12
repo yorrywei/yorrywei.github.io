@@ -15,7 +15,7 @@ UP四年来一直致力于以极简的理念设计系统、改进流程。你，
 
 识别图中二维码或搜索小程序“UP系统”，选择Device模块
 
-[![Smithsonian Image](//yorry.cn/link/up/IMG_4972.PNG)](//yorry.cn/link/up/IMG_4972.PNG)
+[![Smithsonian Image](//up.yorry.cn/link/up/IMG_4972.PNG)](//up.yorry.cn/link/up/IMG_4972.PNG)
 {: .image-contain}
 
 <!--more-->

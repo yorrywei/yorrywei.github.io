@@ -9,7 +9,7 @@ sid: 20100416a
 ---
 
 {::nomarkdown}
-<iframe height=498 width=510 src='http://player.youku.com/embed/XMTY4NDIyNjIw' frameborder=0 'allowfullscreen'></iframe>
+<iframe height=498 width=510 src='//player.youku.com/embed/XMTY4NDIyNjIw' frameborder=0 'allowfullscreen'></iframe>
 {:/nomarkdown}
 
 送给自己的生日礼物，给手机上写了个交互式的app，配合我的操作实现了完美的演绎，算是我学生时代最棒的作品了吧~

@@ -8,7 +8,7 @@ modified: 2018-06-30
 sid: crx-assistant-zhong
 ---
 
-[![Smithsonian Image](http://yorry.cn/link/crx/assistant-zhong_logo.png)](http://yorry.cn/link/crx/assistant-zhong_logo.png)
+[![Smithsonian Image](//up.yorry.cn/link/crx/assistant-zhong_logo.png)](//up.yorry.cn/link/crx/assistant-zhong_logo.png)
 {: .image-contain}
 
 百度的推广链接现在越来越过分了，首屏大部分全是广告，于是萌生了搞个chrome插件来屏蔽它们的想法。
@@ -20,7 +20,7 @@ sid: crx-assistant-zhong
 ---
 
 ### 下载地址
-[assistantZhong_v1.0.crx](http://yorry.cn/link/crx/assistantZhong_v1.0.crx)
+[assistantZhong_v1.0.crx](//up.yorry.cn/link/crx/assistantZhong_v1.0.crx)
 
 chrome打开"扩展程序"页面，将下载的插件拖放进来即可完成安装。
 
@@ -30,7 +30,7 @@ chrome打开"扩展程序"页面，将下载的插件拖放进来即可完成安
 
 ### 原理剖析
 
-[![Smithsonian Image](http://yorry.cn/link/crx/crx-assistant-zhong-1.png)](http://yorry.cn/link/crx/crx-assistant-zhong-1.png)
+[![Smithsonian Image](//up.yorry.cn/link/crx/crx-assistant-zhong-1.png)](//up.yorry.cn/link/crx/crx-assistant-zhong-1.png)
 
 百度的广告内容，底部会多一层淡淡的背景色，DOM结构与样式也跟正常搜索结果不一样。为了防止被通过样式display:none;直接隐藏掉，居然还给广告加了优先级最高的行内样式，外加!important，真是煞费苦心啊！
 

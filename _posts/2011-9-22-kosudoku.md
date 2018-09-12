@@ -8,7 +8,7 @@ categories: [Prod]
 sid: kosudoku
 ---
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/load_img2.png)](http://yorry.cn/link/kosudoku/load_img2.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/load_img2.png)](//up.yorry.cn/link/kosudoku/load_img2.png)
 {: .image-contain}
 
 ## 背景
@@ -24,40 +24,40 @@ sid: kosudoku
 
 ## 功能介绍
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic1.png)](http://yorry.cn/link/kosudoku/pic1.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic1.png)](//up.yorry.cn/link/kosudoku/pic1.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic2.png)](http://yorry.cn/link/kosudoku/pic2.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic2.png)](//up.yorry.cn/link/kosudoku/pic2.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic3.png)](http://yorry.cn/link/kosudoku/pic3.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic3.png)](//up.yorry.cn/link/kosudoku/pic3.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic4.png)](http://yorry.cn/link/kosudoku/pic4.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic4.png)](//up.yorry.cn/link/kosudoku/pic4.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic5.png)](http://yorry.cn/link/kosudoku/pic5.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic5.png)](//up.yorry.cn/link/kosudoku/pic5.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic6.png)](http://yorry.cn/link/kosudoku/pic6.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic6.png)](//up.yorry.cn/link/kosudoku/pic6.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic7.png)](http://yorry.cn/link/kosudoku/pic7.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic7.png)](//up.yorry.cn/link/kosudoku/pic7.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic8.png)](http://yorry.cn/link/kosudoku/pic8.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic8.png)](//up.yorry.cn/link/kosudoku/pic8.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic9.png)](http://yorry.cn/link/kosudoku/pic9.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic9.png)](//up.yorry.cn/link/kosudoku/pic9.png)
 {: .image-contain}
 
-[![Smithsonian Image](http://yorry.cn/link/kosudoku/pic10.png)](http://yorry.cn/link/kosudoku/pic10.png)
+[![Smithsonian Image](//up.yorry.cn/link/kosudoku/pic10.png)](//up.yorry.cn/link/kosudoku/pic10.png)
 {: .image-contain}
 
 ---
 
 ## App下载
 
-貌似现在安卓市场已经倒闭了😂 我自己给个 [apk下载链接](http://yorry.cn/link/kosudoku/KOsudoku.apk) 吧。
+貌似现在安卓市场已经倒闭了😂 我自己给个 [apk下载链接](//up.yorry.cn/link/kosudoku/KOsudoku.apk) 吧。
 
-> 发布到了安卓市场 [http://static.apk.hiapk.com/html/2011/11/322408.html](http://static.apk.hiapk.com/html/2011/11/322408.html)
+> 发布到了安卓市场 [//static.apk.hiapk.com/html/2011/11/322408.html](//static.apk.hiapk.com/html/2011/11/322408.html)

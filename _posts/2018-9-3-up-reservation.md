@@ -17,7 +17,7 @@ UP·会议室预订功能极速上线！
 * 自动同步企业工作日历；
 * 扫会议室二维码快速查看该会议室；
 
-[![Smithsonian Image](http://yorry.cn/link/up/IMG_5003.PNG)](http://yorry.cn/link/up/IMG_5003.PNG)
+[![Smithsonian Image](//up.yorry.cn/link/up/IMG_5003.PNG)](//up.yorry.cn/link/up/IMG_5003.PNG)
 {: .image-contain}
 
 <!--more-->
