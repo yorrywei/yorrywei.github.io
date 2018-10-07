@@ -5,7 +5,7 @@ subtitle: 升职加薪 当上总经理 出任CEO 迎娶白富美 走向人生巅
 sid: about
 ---
 ### 肿队长
-专业前端程序猿 / 业余产品经理 / 假装表演艺术家 / 智能设备爱好者
+专业前端程序猿 / 业余产品经理 / 假装表演艺术家 / 智能设备爱好者 / UP系统创始人
 
 {::nomarkdown}
 <ul class="list-inline social-buttons about-btns">
