@@ -303,7 +303,7 @@
 
     footer {
       position: absolute;
-      z-index: 0;
+      z-index: 999;
       bottom: 5px;
       text-align: center;
       width: 100%;
@@ -347,6 +347,7 @@
       cursor: pointer;
       font-family: var(--content-font);
       color: var(--body-text-alt);
+      color: #999;
       position: absolute;
       top: 0;
       bottom: 0;
@@ -554,7 +555,10 @@
     }
   }
   if(isIE()){
-    document.getElementById('prompt').innerHTML='为正常访问本站，请使用非IE浏览器'
+    document.getElementById('prompt').innerHTML='为正常访问本站，请使用非IE浏览器 | 点击图片跳转';
+    document.getElementsByClassName('content__title')[0].addEventListener('click', function () {
+      window.location.href = '/blog'
+    });
   }
 </script>
 </body>
