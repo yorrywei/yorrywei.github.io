@@ -2,7 +2,7 @@
 layout: post
 title: 破解数独 (微信小程序)
 description: "前几天整理以前的代码，发现7年前写了个Android app是破解数独的。想来自己也写了不少微信小程序了，却还没以个人名义正式发布过，干脆从它开始，量产个人小程序，顺便丰富下业余生活。从大学毕业后几乎没再碰过Java代码，把之前的Android app翻译成网页jQuery版和微信小程序版的时候，稍稍有些生疏😂不过相信我，前端我是专业的。。。"
-tags: [作品]
+tags: [作品,小程序,抖音,视频]
 categories: [Prod]
 sid: miniprogram-kosudoku
 ---
@@ -16,6 +16,13 @@ sid: miniprogram-kosudoku
 从大学毕业后几乎没再碰过Java代码，把之前的Android app翻译成网页jQuery版和微信小程序版的时候，稍稍有些生疏😂不过相信我，前端我是专业的。。。
 
 <!--more-->
+
+---
+
+### 演示视频
+{::nomarkdown}
+<video width=250 class="my-video" src="//up.yorry.cn/video/8ab29aae8a6f35f8ccb345fbe4f666d9.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
+{:/nomarkdown}
 
 ---
 

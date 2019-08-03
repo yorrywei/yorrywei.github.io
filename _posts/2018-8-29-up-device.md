@@ -2,7 +2,7 @@
 layout: post
 title: UP系统-设备管理
 description: "UP·设备管理功能上线啦！告别低效登记，解决清点困难，减少懵逼背锅侠，优化资源协调，降低闲置浪费。"
-tags: [作品]
+tags: [作品,小程序]
 categories: [Prod]
 sid: up-device
 ---

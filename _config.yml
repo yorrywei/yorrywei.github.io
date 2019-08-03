@@ -32,7 +32,7 @@ menu:
       - title: 'UP系统'
         url: '/prod/up/'
       - title: '微信小程序'
-        url: '/prod/miniprogram-KOsudoku/'
+        url: '/tags/#小程序'
       - title: 'chrome插件'
         url: '/prod/crx-assistant-zhong/'
   - title: '关于'

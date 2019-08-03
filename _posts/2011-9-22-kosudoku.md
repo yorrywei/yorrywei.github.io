@@ -60,4 +60,4 @@ sid: kosudoku
 
 貌似现在安卓市场已经倒闭了😂 我自己给个 [apk下载链接](//up.yorry.cn/link/kosudoku/KOsudoku.apk) 吧。
 
-> 发布到了安卓市场 [//static.apk.hiapk.com/html/2011/11/322408.html](//static.apk.hiapk.com/html/2011/11/322408.html)
+> 发布到了安卓市场 [http://static.apk.hiapk.com/html/2011/11/322408.html](//static.apk.hiapk.com/html/2011/11/322408.html)

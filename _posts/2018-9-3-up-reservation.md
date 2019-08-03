@@ -2,7 +2,7 @@
 layout: post
 title: UP系统-会议室预订
 description: "UP·会议室预订功能极速上线！纯图形化操作，手指拖动调整时间和时长..."
-tags: [作品]
+tags: [作品,小程序]
 categories: [Prod]
 sid: up-reservation
 ---
