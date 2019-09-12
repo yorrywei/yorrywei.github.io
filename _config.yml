@@ -31,7 +31,7 @@ menu:
     submenu:
       - title: 'UP系统'
         url: '/prod/up/'
-      - title: '微信小程序'
+      - title: '小程序'
         url: '/tags/#小程序'
       - title: 'chrome插件'
         url: '/prod/crx-assistant-zhong/'
@@ -43,7 +43,7 @@ owner:
   name:           肿队长
   site:           https://yorry.cn
   avatar:         images/avatar.jpg
-  bio:            "专业前端程序猿 / 业余产品经理 / 假装表演艺术家 / 智能设备爱好者 / UP系统创始人"
+  bio:            "专业全栈程序猿 / 业余产品经理 / 冒牌表演艺术家 / 趣味生活爱好者 / UP系统创始人"
   email:          i@yorry.cn
   # Twitter nick for use in Twitter cards and follow button.
 #  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
