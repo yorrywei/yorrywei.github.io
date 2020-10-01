@@ -12,7 +12,7 @@ sid: 20190602
 #### 成品效果
 
 {::nomarkdown}
-<video width=250 class="my-video" src="//up.yorry.cn/video/80e7a24aae71c4e5739bd5c1c5f33e.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
+<video width=250 class="my-video" src="//yorry.cn/up/video/80e7a24aae71c4e5739bd5c1c5f33e.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
 {:/nomarkdown}
 
 ---
@@ -20,5 +20,5 @@ sid: 20190602
 #### 3D模型
 
 {::nomarkdown}
-<video width=500 class="my-video" src="//up.yorry.cn/video/2ecc8b0190a2f470b795c13078543316.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
+<video width=500 class="my-video" src="//yorry.cn/up/video/2ecc8b0190a2f470b795c13078543316.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
 {:/nomarkdown}

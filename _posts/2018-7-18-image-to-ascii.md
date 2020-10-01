@@ -6,13 +6,13 @@ tags: [抖音,趣味编程,python]
 categories: [Blog]
 sid: 20180718a
 ---
-[![Smithsonian Image](//up.yorry.cn/link/blog/yorry_ascii.jpg)](//up.yorry.cn/link/blog/yorry_ascii.jpg)
+[![Smithsonian Image](//yorry.cn/up/link/blog/yorry_ascii.jpg)](//yorry.cn/up/link/blog/yorry_ascii.jpg)
 {: .image-horizontal}
 
 刷抖音看到这么一个视频，还挺火的~
 
 {::nomarkdown}
-<video width=250 class="my-video" src="//up.yorry.cn/video/FinalVideo_1531968495.452555.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
+<video width=250 class="my-video" src="//yorry.cn/up/video/FinalVideo_1531968495.452555.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
 {:/nomarkdown}
 
 哎哟，这不是图片转字符的升级版么，视频的每一帧图片转换掉再放回去。抖音人才多啊！
@@ -67,7 +67,7 @@ python test.py
 
 原图(yorry.jpg)
 
-[![Smithsonian Image](//up.yorry.cn/link/blog/yorry.jpg)](//up.yorry.cn/link/blog/yorry.jpg)
+[![Smithsonian Image](//yorry.cn/up/link/blog/yorry.jpg)](//yorry.cn/up/link/blog/yorry.jpg)
 {: .image-horizontal}
 
 不会码代码的小伙伴也可以直接用一些在线工具来转(字符集与本文不同)

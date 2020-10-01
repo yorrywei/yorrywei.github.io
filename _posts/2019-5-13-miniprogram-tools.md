@@ -8,7 +8,7 @@ sid: miniprogram-tools
 ---
 
 ### 小程序码
-![Smithsonian Image](//up.yorry.cn/wx/app/1003_qr_tools.jpg)
+![Smithsonian Image](//yorry.cn/up/wx/app/1003_qr_tools.jpg)
 {: .image-contain}
 
 便捷、高效的小工具合集。
@@ -21,14 +21,14 @@ sid: miniprogram-tools
 
 ### 预览
 
-[![Smithsonian Image](//up.yorry.cn/wx/app/1003_tools_1.jpg)](//up.yorry.cn/wx/up/1003_tools_1.jpg)
+[![Smithsonian Image](//yorry.cn/up/wx/app/1003_tools_1.jpg)](//yorry.cn/up/wx/up/1003_tools_1.jpg)
 {: .image-contain}
 
-[![Smithsonian Image](//up.yorry.cn/wx/app/1003_tools_2.jpg)](//up.yorry.cn/wx/up/1003_tools_2.jpg)
+[![Smithsonian Image](//yorry.cn/up/wx/app/1003_tools_2.jpg)](//yorry.cn/up/wx/up/1003_tools_2.jpg)
 {: .image-contain}
 
-[![Smithsonian Image](//up.yorry.cn/wx/app/1003_tools_3.jpg)](//up.yorry.cn/wx/up/1003_tools_3.jpg)
+[![Smithsonian Image](//yorry.cn/up/wx/app/1003_tools_3.jpg)](//yorry.cn/up/wx/up/1003_tools_3.jpg)
 {: .image-contain}
 
-[![Smithsonian Image](//up.yorry.cn/wx/app/1003_tools_4.jpg)](//up.yorry.cn/wx/up/1003_tools_4.jpg)
+[![Smithsonian Image](//yorry.cn/up/wx/app/1003_tools_4.jpg)](//yorry.cn/up/wx/up/1003_tools_4.jpg)
 {: .image-contain}

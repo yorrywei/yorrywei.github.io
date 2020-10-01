@@ -8,7 +8,7 @@ sid: 20171222a
 ---
 
 {::nomarkdown}
-<video width=250 class="my-video" src="//up.yorry.cn/video/638fbfbc346e7364148b3e3aa9fe45.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
+<video width=250 class="my-video" src="//yorry.cn/up/video/638fbfbc346e7364148b3e3aa9fe45.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
 {:/nomarkdown}
 
 提前收到媳妇儿送的圣诞礼物，帅炸了！

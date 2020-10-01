@@ -41,7 +41,7 @@ sid: miniprogram-kosudoku
 
 ### 演示视频
 {::nomarkdown}
-<video width=250 class="my-video" src="//up.yorry.cn/video/8ab29aae8a6f35f8ccb345fbe4f666d9.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
+<video width=250 class="my-video" src="//yorry.cn/up/video/8ab29aae8a6f35f8ccb345fbe4f666d9.MP4" controls="controls">您的浏览器不支持 video 标签。</video>
 {:/nomarkdown}
 
 ---
